@@ -13,6 +13,8 @@ public class HelloController {
 	public String getMethodName() {
 		
 		System.out.println("HelloController.getMethodName()");
+		
+		System.out.println("HelloController.getMethodName()");
 		return "Welcome to Hello Controller";
 	}
 	
