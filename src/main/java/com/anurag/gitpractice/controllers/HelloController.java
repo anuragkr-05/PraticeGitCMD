@@ -11,7 +11,9 @@ public class HelloController {
 	
 	@GetMapping("/hello")
 	public String getMethodName() {
-		return "Welcome to Hello COtroller";
+		
+		System.out.println("HelloController.getMethodName()");
+		return "Welcome to Hello Controller";
 	}
 	
 }
